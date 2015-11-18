@@ -1,1 +1,1 @@
-mod 'ntp'
+mod 'puppetlabs/ntp'
