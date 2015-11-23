@@ -1,4 +1,5 @@
-mod 'firewall',        :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git'
+mod 'concat',     :git => 'https://github.com/puppetlabs/puppetlabs-concat.git'
+mod 'firewall',   :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git'
 mod 'git',        :git => 'https://github.com/puppetlabs/puppetlabs-git.git'
 mod 'inifile',    :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git'
 mod 'ntp',        :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git'
