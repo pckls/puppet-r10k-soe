@@ -1,6 +1,5 @@
 ---
 classes:
-    - puppetdb
-    - puppetexplorer
+    - pckls::roles::puppetdb
 
 puppetdb::manage_firewall: false
