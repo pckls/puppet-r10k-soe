@@ -1,6 +1,9 @@
 ---
 classes:
+    - puppetdb::master::config
     - r10k
+
+puppetdb::master::config::puppetdb_server: puppetdb1.vagrant.pckls.io
 
 r10k::sources:
     soe:
