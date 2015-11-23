@@ -1,7 +1,12 @@
 ---
 classes:
-    - puppetdb::master::config
-    - r10k
+    - pckls::roles::puppetmaster
+
+pckls::profiles::puppet::config:
+    main:
+        reports: puppetdb
+
+pckls::profiles::puppet::open_tcp8140: true
 
 puppetdb::master::config::puppetdb_server: puppetdb1.vagrant.pckls.io
 
