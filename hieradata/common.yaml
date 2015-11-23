@@ -3,3 +3,4 @@ classes:
     - ntp
     - pckls::profiles::firewall
     - pckls::profiles::firewall::vagrant
+    - stdlib
