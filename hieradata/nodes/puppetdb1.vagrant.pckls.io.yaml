@@ -2,3 +2,5 @@
 classes:
     - puppetdb
     - puppetexplorer
+
+puppetdb::manage_firewall: false
