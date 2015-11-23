@@ -3,7 +3,7 @@ classes:
     - pckls::roles::puppetmaster
 
 pckls::profiles::puppet::config:
-    main:
+    master:
         reports: puppetdb
 
 pckls::profiles::puppet::open_tcp8140: true
