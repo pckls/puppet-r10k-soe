@@ -2,6 +2,7 @@ mod 'apache',         :git => 'https://github.com/puppetlabs/puppetlabs-apache.g
 mod 'concat',         :git => 'https://github.com/puppetlabs/puppetlabs-concat.git'
 mod 'firewall',       :git => 'https://github.com/puppetlabs/puppetlabs-firewall.git'
 mod 'git',            :git => 'https://github.com/puppetlabs/puppetlabs-git.git'
+mod 'haproxy',        :git => 'https://github.com/puppetlabs/puppetlabs-haproxy.git'
 mod 'inifile',        :git => 'https://github.com/puppetlabs/puppetlabs-inifile.git'
 mod 'ntp',            :git => 'https://github.com/puppetlabs/puppetlabs-ntp.git'
 mod 'pckls',          :git => 'https://github.com/pckls/puppet-pckls.git'
